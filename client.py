@@ -1,5 +1,6 @@
 import requests
 from settings import API_KEY, API_URL
+from datetime import date
 
 
 
@@ -27,10 +28,10 @@ def buscar_jogos(date, api_key=None):
 
     return response.json()
 
-
+current_date = date.today().isoformat()
 jogos = buscar_jogos(
-    "2026-09-01",
+    current_date,
     API_KEY
 )
 
-print(jogos)
+#print(jogos)

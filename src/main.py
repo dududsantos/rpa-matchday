@@ -1,9 +1,9 @@
-from client import get_matches
-from filter import filter_matches
-from formatter import format_matches
-from settings import FAV_COMPETITIONS, FAV_TEAMS
+from src.client import get_matches
+from src.filter import filter_matches
+from src.formatter import format_matches
+from src.settings import FAV_COMPETITIONS, FAV_TEAMS
 from datetime import date
-from settings import API_KEY
+from src.settings import API_KEY
 
 current_date = date.today().isoformat()
 

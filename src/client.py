@@ -1,5 +1,5 @@
 import requests
-from settings import API_KEY, API_URL
+from src.settings import API_KEY, API_URL
 
 def get_matches(date, api_key=None):
     api_key = api_key or API_KEY

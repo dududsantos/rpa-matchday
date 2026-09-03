@@ -26,6 +26,4 @@ FAV_TEAMS = [
     113, #Napoli
     5, #Bayern
     86, #Real Madrid
-    92,
-    521
 ]

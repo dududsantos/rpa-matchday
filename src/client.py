@@ -18,8 +18,7 @@ def get_matches(date, api_key=None):
     }
 
     params = {
-        "dateFrom": date,
-        "dateTo": date
+        "date": date
     }
 
     try:

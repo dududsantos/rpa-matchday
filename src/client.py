@@ -18,7 +18,8 @@ def get_matches(date, api_key=None):
     }
 
     params = {
-        "date": date
+        "dateFrom": date,
+        "dateTo": date,
     }
 
     try:
@@ -43,5 +44,4 @@ def get_matches(date, api_key=None):
     except (requests.RequestException, ValueError):
         logger.exception("Erro ao buscar jogos para %s na API %s", date, API_URL)
         raise
-
 

@@ -3,7 +3,7 @@ from zoneinfo import ZoneInfo
 
 
 def format_matches(matches):
-    message = "Oi Dudu, esses são os Jogos de hoje ⚽:\n\n"
+    message = "Oi Dudu, esses são os Jogos de hoje:\n\n"
 
     for match in matches:
         home_team = match["homeTeam"]["shortName"]

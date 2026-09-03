@@ -2,10 +2,13 @@ from src.client import get_matches
 from src.filter import filter_matches
 from src.formatter import format_matches
 from src.settings import FAV_COMPETITIONS, FAV_TEAMS
-from datetime import date
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from src.notifier import send_message
 
-current_date = date.today().isoformat()
+current_date = datetime.now(
+    ZoneInfo("America/Sao_Paulo")
+).date().isoformat()
 
 
 matches = get_matches(

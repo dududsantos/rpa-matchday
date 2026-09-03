@@ -20,7 +20,7 @@ def format_matches(matches):
 
         time = brazil_date.strftime("%H:%M")
 
-        message += f"🕐 {time} - {home_team} x {away_team}\n"
-        message += f"🏆 {competition}\n\n"
+        message += f"⚽ *{home_team} x {away_team}*\n"
+        message += f"🕐 {time} | 🏆 {competition}\n\n"
 
     return message

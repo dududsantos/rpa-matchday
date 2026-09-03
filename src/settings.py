@@ -7,6 +7,10 @@ load_dotenv()
 API_URL = os.getenv("API_URL", "https://api.football-data.org/v4/matches")
 API_KEY = os.getenv("API_KEY", "")
 
+
+CALLMEBOT_API_KEY = os.getenv("CALLMEBOT_API_KEY")
+WHATSAPP_PHONE = os.getenv("WHATSAPP_PHONE")
+
 __all__ = ["API_URL", "API_KEY"]
 
 FAV_COMPETITIONS = [

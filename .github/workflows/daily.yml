@@ -2,10 +2,8 @@ name: Daily Football Notification
 
 on:
   schedule:
-    - cron: "57 10 * * *"
-
+    - cron: "*/15 * * * *"   # every 15 minutes (temporary)
   workflow_dispatch:
-
 jobs:
   run-rpa:
     runs-on: ubuntu-latest

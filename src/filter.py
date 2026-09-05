@@ -17,6 +17,8 @@ def filter_matches(matches, fav_teams, fav_competitions):
         )
 
         if is_favorite_competition or is_favorite_team:
+            if competition_id == 2013:
+                match["competition"]["name"] = "Brasileirão A"
             filtered_matches.append(match)
 
     return filtered_matches

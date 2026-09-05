@@ -22,6 +22,7 @@ FAV_COMPETITIONS = [
 #Só coloquei times que não estão inseridos nas competições favoritas, pois por enqunato não tem um uso específico p/ times favoritos. 
 FAV_TEAMS = [
     98, #Milan
+    100, #Roma
     108, #Inter
     113, #Napoli
     5, #Bayern

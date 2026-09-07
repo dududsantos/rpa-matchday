@@ -2,7 +2,7 @@ name: Daily Football Notification
 
 on:
   schedule:
-    - cron: "51 6 * * *" 
+    - cron: "42 6 * * *" 
   workflow_dispatch:
 jobs:
   run-rpa:
